@@ -1,0 +1,88 @@
+/* SECTION */
+.skills-section {
+  padding: 70px 0;
+  background: linear-gradient(180deg, #0f172a, #020617);
+  color: white;
+}
+
+/* TITLE */
+.skills-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.skills-title span {
+  color: #facc15;
+}
+
+.skills-subtitle {
+  margin-top: 8px;
+  text-align: center;
+  color: #cbd5f5;
+  font-size: 0.9rem;
+}
+
+/* CATEGORY */
+.skills-group {
+  margin-top: 36px;
+}
+
+.skills-group-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #e5e7eb;
+  margin-bottom: 14px;
+  border-left: 4px solid #facc15;
+  padding-left: 12px;
+}
+
+/* PILL GRID */
+.skills-pill-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* PILL */
+.skill-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: default;
+  transition: all 0.3s ease;
+}
+
+.skill-pill:hover {
+  background: rgba(56, 189, 248, 0.15);
+  border-color: #38bdf8;
+  transform: translateY(-2px);
+}
+
+/* ICON */
+.pill-icon {
+  font-size: 16px;
+  color: #38bdf8;
+}
+
+/* TEXT */
+.pill-text {
+  color: #e5e7eb;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .skills-title {
+    font-size: 1.9rem;
+  }
+
+  .skills-pill-grid {
+    gap: 10px;
+  }
+}
