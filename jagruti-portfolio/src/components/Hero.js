@@ -42,7 +42,7 @@ const Hero = () => {
         {/* Buttons */}
         <div className="hero-actions">
           <a
-  href="https://drive.google.com/file/d/1gEDD82PTiwcB-kAPbmj-kgJrzZXkl1py/view"
+  href="https://drive.google.com/file/d/1HlSptgrN05HBh4J_eye2rJ6lLI0sgVSz/view?usp=drive_link"
   target="_blank"
   rel="noreferrer"
   className="hero-btn primary"
