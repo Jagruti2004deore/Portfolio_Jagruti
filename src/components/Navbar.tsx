@@ -39,7 +39,7 @@ export default function Navbar() {
             }`}
           >
             <a href="#hero" className="font-mono text-sm font-semibold tracking-tight text-text">
-              jagruti<span className="text-amber">.</span>dev
+              jagruti<span className="text-amber"></span>
             </a>
 
             <nav className="hidden md:flex items-center gap-8">
