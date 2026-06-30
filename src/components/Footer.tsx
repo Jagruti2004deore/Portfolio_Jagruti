@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="border-t border-border py-8 px-6">
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
         <span className="font-mono text-sm text-text-faint">
-          jagruti<span className="text-amber">.</span>dev — built with React,
+          jagruti<span className="text-amber"></span> — built with React,
           TypeScript &amp; Framer Motion
         </span>
         <span className="font-mono text-xs text-text-faint">
